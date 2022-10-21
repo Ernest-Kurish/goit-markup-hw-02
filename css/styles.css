@@ -1,4 +1,97 @@
 
-.accent {
-    color: blue;
+/*Main Text Color
+rgba(33, 33, 33, 1) 
+*/
+
+/* White Text 
+color: #FFFFFF; 
+*/
+
+/* WebStudio Header
+rgba(33, 150, 243, 1); 
+rgba(0, 0, 0, 1)
+
+*/
+
+/* WebStudio Footer
+rgba(33, 150, 243, 1); 
+rgba(255, 255, 255, 1)
+
+*/
+
+/* Phone Header
+color: #757575;; 
+*/
+
+/* Phone & Email Footer
+rgba(255, 255, 255, 0.6)
+*/
+
+/* Accent  
+background: #2196F3; 
+*/
+
+.body {
+    color:#757575;;
+    background-color:#F5F5F5;;
 }
+
+.logo {
+color: #2196F3;
+
+}
+
+.accent-header {
+color: rgba(0, 0, 0, 1)
+}
+
+.accent-footer {
+color:rgba(255, 255, 255, 1)
+}
+
+}
+.accent-web {
+    color: #2196F3;
+}
+
+
+.list {
+    list-style: none;
+}
+
+.site-nav .link {
+    color: #212121;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+color: #2196F3;
+}
+
+
+/* Mail and Phone Number*/
+.email {
+color: #212121;
+}
+
+.email:hover,
+.email:focus {
+color: #2196F3;
+}
+
+
+.phone {
+color: #757575;
+}
+
+
+.hero-section {
+    background-color:#2F303A; ;
+}
+.hero-title {
+    color:#FFFFFF;
+}
+.hero-button {
+    color:#FFFFFF;
+}
+
