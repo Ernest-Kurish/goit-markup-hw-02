@@ -84,7 +84,14 @@ color: #2196F3;
 color: #757575;
 }
 
-/*Hero Section */
+/*Hero Section 1 */
+.hero {
+width: 1600px;
+height: 600px;
+left: 0px;
+top: 80px;
+background: #2F303A;
+}
 
 .hero-section {
     background-color:#2F303A; ;
@@ -96,7 +103,7 @@ color: #757575;
     color:#FFFFFF;
 }
 
-
+/* Section 2 and 3 */
 .about-section {
 background-color: #F5F5F5;
 }
@@ -110,4 +117,45 @@ color: #212121;
 }
 .about-section-text {
 color: #757575;
+}
+
+/* Section 4 */
+
+
+.team-section {
+    background-color: background: #F5F4FA;;
+}
+
+.team-section-main {
+color: #212121;
+}
+
+
+.team-section-leader {
+color: #212121;
+}
+
+.team-section-title {
+color: #757575;
+}
+
+
+/* Footer*/
+.footer {
+width: 1600px;
+height: 252px;
+left: 0px;
+top: 2094px;
+background: #2F303A;
+}
+
+.footer-address {
+color: #FFFFFF;
+}
+
+.footer-email {
+color: rgba(255, 255, 255, 0.6);
+}
+.footer-phone {
+color: rgba(255, 255, 255, 0.6);
 }
