@@ -84,6 +84,7 @@ color: #2196F3;
 color: #757575;
 }
 
+/*Hero Section */
 
 .hero-section {
     background-color:#2F303A; ;
@@ -95,3 +96,18 @@ color: #757575;
     color:#FFFFFF;
 }
 
+
+.about-section {
+background-color: #F5F5F5;
+}
+
+.about-section-main {
+color: #212121;
+}
+
+.about-section-title {
+color: #212121;
+}
+.about-section-text {
+color: #757575;
+}
