@@ -34,8 +34,6 @@ background: #2196F3;
     --primary-text-color:#757575;
     --title-text-color:#212121;
     --accent-color:#2196F3;
-    
-
 }
 
 
@@ -79,6 +77,10 @@ color: var(--title-text-color);
 color: var(--accent-color);
 }
 
+.site-nav .link.current {
+color: var(--accent-color);  
+}
+
 
 /* Mail and Phone Number Header*/
 .email {
@@ -93,6 +95,11 @@ color: var(--accent-color);
 
 .phone {
 color: var(--primary-text-color);
+}
+
+.phone:hover,
+.phone:focus {
+color: var(--accent-color);
 }
 
 /*Hero Section 1 */
