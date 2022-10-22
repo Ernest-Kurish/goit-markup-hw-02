@@ -30,28 +30,39 @@ rgba(255, 255, 255, 0.6)
 /* Accent  
 background: #2196F3; 
 */
+:root {
+    --primary-text-color:#757575;
+    --title-text-color:#212121;
+    --accent-color:#2196F3;
+    
 
-.body {
-    color:#757575;;
-    background-color:#F5F5F5;;
 }
 
-.logo {
-color: #2196F3;
 
+.body {
+color: var(--primary-text-color); 
+}
+
+/*Header */
+.logo {
+color: var(--accent-color);
+}
+
+.page-header {
+background-color: #FFFFFF;
 }
 
 .accent-header {
-color: rgba(0, 0, 0, 1)
+color:rgba(0, 0, 0, 1);
 }
 
 .accent-footer {
-color:rgba(255, 255, 255, 1)
+color:rgba(255, 255, 255, 1);
 }
 
 }
 .accent-web {
-    color: #2196F3;
+color: var(--accent-color);
 }
 
 
@@ -60,28 +71,28 @@ color:rgba(255, 255, 255, 1)
 }
 
 .site-nav .link {
-    color: #212121;
+color: var(--title-text-color);
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-color: #2196F3;
+color: var(--accent-color);
 }
 
 
-/* Mail and Phone Number*/
+/* Mail and Phone Number Header*/
 .email {
-color: #212121;
+color: var(--title-text-color);
 }
 
 .email:hover,
 .email:focus {
-color: #2196F3;
+color: var(--accent-color);
 }
 
 
 .phone {
-color: #757575;
+color: var(--primary-text-color);
 }
 
 /*Hero Section 1 */
@@ -90,53 +101,75 @@ width: 1600px;
 height: 600px;
 left: 0px;
 top: 80px;
-background: #2F303A;
+background-color:#2F303A;
 }
 
 .hero-section {
-    background-color:#2F303A; ;
+background-color:#2F303A; ;
 }
 .hero-title {
-    color:#FFFFFF;
+color:#FFFFFF;
 }
-.hero-button {
-    color:#FFFFFF;
+
+.button {
+color:#FFFFFF;
+background-color:var(--accent-color);
+
+font-size: 16px;
+padding: 12px 24px;
+display:inline-block;
+border: 1px solid black;
+
 }
+
+.button.primary {
+color:#FFFFFF;
+background-color:var(--accent-color);
+border-color: transparent;
+}
+
+.button.secondary {
+color: var(--title-text-color);
+background-color:#F5F4FA;
+border-color: transparent;
+}
+
 
 /* Section 2 and 3 */
 .about-section {
-background-color: #F5F5F5;
+background-color:#F5F5F5;
 }
 
 .about-section-main {
-color: #212121;
+color: var(--title-text-color);
 }
 
 .about-section-title {
-color: #212121;
+color: var(--title-text-color);
 }
+
 .about-section-text {
-color: #757575;
+color: var(--primary-text-color);
 }
 
 /* Section 4 */
 
 
 .team-section {
-    background-color: background: #F5F4FA;;
+background-color:#F5F4FA;
 }
 
 .team-section-main {
-color: #212121;
+color: var(--title-text-color);
 }
 
 
 .team-section-leader {
-color: #212121;
+color: var(--title-text-color);
 }
 
 .team-section-title {
-color: #757575;
+color: var(--primary-text-color);
 }
 
 
@@ -146,7 +179,7 @@ width: 1600px;
 height: 252px;
 left: 0px;
 top: 2094px;
-background: #2F303A;
+background-color:#2F303A;
 }
 
 .footer-address {
