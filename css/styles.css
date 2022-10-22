@@ -181,9 +181,6 @@ font-style: normal;
 font-weight: 700;
 font-size: 16px;
 line-height: 1.88;
-display: center;
-align-items: center;
-text-align: center;
 letter-spacing: 0.06em;
 position: absolute;
 width: 216px;
@@ -196,7 +193,33 @@ top: 430px;
 color: var(--title-text-color);
 background-color:#F5F4FA;
 border-color: transparent;
+font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.63;
+text-align: center;
+letter-spacing: 0.03em;
+
+
+
 }
+
+.button.secondary:hover,
+.button.secondary:focus {
+color: #FFFFFF;
+background-color:var(--accent-color);
+font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height:1.63;
+text-align: center;
+letter-spacing: 0.03em;
+
+
+}
+
 
 
 /* Section 2 and 3 */
@@ -280,10 +303,22 @@ letter-spacing: 0.03em;
 
 .portfolio-title {
 color: var(--title-text-color);
+font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
 }
 
 .portfolio-text {
 color: var(--primary-text-color);
+font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height:1.88;
+letter-spacing: 0.03em;
 }
 
 
