@@ -234,9 +234,9 @@ text-align: center;
 .about-section-title {
 color: var(--title-text-color);
 font-weight: 700;
+font-size: 14px;
 line-height: 1.33;
 text-transform: uppercase;
-
 }
 
 .about-section-text {
