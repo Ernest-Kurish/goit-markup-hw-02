@@ -457,6 +457,11 @@ font-size: 14px;
 line-height: 1.33;
 text-transform: uppercase;
 }
+/* ---------------------Наші переваги------------------HIDDEN H2 &H1 */
+.visibility-hidden {
+    visibility: hidden;
+}
+
 
 .about-section-text {
     margin-top: 10px;
@@ -548,6 +553,8 @@ padding: 60px 15px;
 
 
 .footer-address {
+margin-top: 20px;
+
 color: #FFFFFF;
 font-style: normal;
 line-height: 2;
@@ -555,12 +562,17 @@ text-decoration: none;
 }
 
 .footer-email {
+margin-top: 9px;
+
 color: rgba(255, 255, 255, 0.6);
 font-style: normal;
 line-height: 2;
 text-decoration: none;
 }
 .footer-phone {
+margin-top: 9px;
+margin-bottom: 60px;
+
 color: rgba(255, 255, 255, 0.6);
 font-style: normal;
 line-height: 2;
