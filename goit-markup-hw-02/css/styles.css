@@ -30,10 +30,28 @@ rgba(255, 255, 255, 0.6)
 /* Accent  
 background: #2196F3; 
 */
+html {
+box-sizing: border-box;
+}
+
+*,
+*::before
+*::after {
+    box-sizing: inherit;
+}
+
+/* ---------------- REMOVE PADDINGS & MARGINS ------------------------------ */
+
+h1, h2, h3, h4, h5, h6, p, ul, li {
+margin:0;
+padding: 0;
+}
+
 :root {
     --primary-text-color:#757575;
     --title-text-color:#212121;
     --accent-color:#2196F3;
+    --background-color-white: #F5F5F5;
 }
 
 
@@ -48,6 +66,20 @@ text-decoration: none;
 }
 
 /*Header */
+
+/* ---------------- CONTAINER ------------ */
+
+.container {
+width: 1200px;
+margin-left: auto;
+margin-right: auto;
+padding-left: 15px;
+padding-right: 15px;
+background-color: tomato;
+outline: 2px solid black;
+}
+
+
 .logo {
 color: var(--accent-color);
 font-family: Raleway, sans-serif;
@@ -141,15 +173,37 @@ text-decoration: none;
 color: var(--accent-color);
 }
 
-/*Hero Section 1 */
-.hero {
+/*-----------------------------HEROSection 1-------------- */
+.hero-container {
+margin-top: 0;
+margin-bottom: 0;
+align-items: center;
+text-align: center;
+max-width: 696px;
+padding: 200px 0;
+margin: 0 auto;
+
+
+
 background-color:#2F303A;
 }
 
 .hero-section {
-background-color:#2F303A; ;
+background-color:#2F303A;
+
+
+
 }
+
+
+
+
+
 .hero-title {
+margin-bottom: 30px;
+
+
+
 color:#FFFFFF;
 
 font-weight: 900;
@@ -160,12 +214,18 @@ letter-spacing: 0.06em;
 text-transform: uppercase;
 }
 
-/* Buttons */ 
+/* -----------------BUTTONS--------------------- */ 
 .pointer {
   cursor: pointer;
 }
 
 .button {
+display: inline-block;
+border-radius: 4px;
+text-align: center;
+border: 1px solid transparent;
+
+
 color:#FFFFFF;
 background-color:var(--accent-color);
 font-size: 16px;
@@ -176,6 +236,13 @@ border: 1px solid black;
 }
 
 .button.primary {
+padding: 10px 32px;
+min-width: 216px;
+    justify-content: center;
+    margin: 0px;
+    cursor: pointer;
+
+
 color:#FFFFFF;
 background-color:var(--accent-color);
 border-color: transparent;
@@ -183,7 +250,7 @@ font-weight: 700;
 font-size: 16px;
 line-height: 1.88;
 letter-spacing: 0.06em;
-position: absolute;
+box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
 }
 
 .button.secondary {
@@ -209,25 +276,48 @@ line-height:1.63;
 text-align: center;
 letter-spacing: 0.03em;
 }
+/* ------------------------PORTFOLIO BUTTONS ---------------------*/
+.btn-all {
+padding: 6px 25px;
+min-width: 73px;
+}
+.btn-web {
+padding: 6px 22px;
+min-width: 125px;    
+}
+.btn-extra {
+padding: 6px 22px;
+min-width: 112px;
+}
+.btn-design {
+padding: 6px 22px;
+min-width: 103px;
+}
+.btn-marketing {
+padding: 6px 22px;
+min-width: 130px;
+}
 
 
 
 /* Section 2 and 3 */
 .about-section {
-background-color:#F5F5F5;
+
 }
 
 .about-section-main {
-color: var(--title-text-color);
+color: #212121;
 font-weight: 700;
 font-size: 36px;
 line-height: 1.17;
 text-align: center;
 
 
+
 }
 
 .about-section-title {
+    
 color: var(--title-text-color);
 font-weight: 700;
 font-size: 14px;
@@ -236,9 +326,9 @@ text-transform: uppercase;
 }
 
 .about-section-text {
+    margin-top: 10px;
 color: var(--primary-text-color);
 line-height:2;
-
 
 }
 
@@ -290,10 +380,7 @@ line-height:1.88;
 
 /* Footer*/
 .footer {
-width: 1600px;
-height: 252px;
-left: 0px;
-top: 2094px;
+
 background-color:#2F303A;
 }
 
