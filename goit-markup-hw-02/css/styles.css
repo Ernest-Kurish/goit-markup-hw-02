@@ -79,6 +79,10 @@ background-color: tomato;
 outline: 2px solid black;
 }
 
+.section {
+padding-top: 0px;
+padding-bottom: 0px;
+}
 
 .logo {
 color: var(--accent-color);
@@ -125,20 +129,63 @@ letter-spacing: 0.03em;
     color: inherit;
 }
 
-
-
-
 .site-nav .link {
+display: block;
+padding-top: 32px;
+padding-bottom: 32px;
+
 color: var(--title-text-color);
 font-weight: 500;
 line-height: 1.14;
 letter-spacing: 0.02em;
 }
 
+/* ----------------------------- ALIGNIGN ALL LINKS ---------------*/
+.main-line {
+display: flex;
+align-items: center;
+}
+
+
+.auth-nav {
+display: flex;
+margin-left: auto;
+}
+
+.auth-nav .item {
+display: block;
+padding-top: 32px;
+padding-bottom: 32px;
+}
+
+.auth-nav .item + .item {
+margin-left: 50px;
+}
+
+.logo-padding {
+display: block;
+padding-top: 24px;
+padding-bottom: 25px;
+
+}
+
+
 .site-nav .link:hover,
 .site-nav .link:focus {
 color: var(--accent-color);
 }
+
+
+
+.site-nav {
+display: flex;
+margin-left: 93px;
+}
+
+.site-nav .item + .item {
+margin-left: 50px;
+}
+
 
 .site-nav .link.current {
 color: var(--accent-color);  
@@ -147,7 +194,7 @@ color: var(--accent-color);
 
 /* Mail and Phone Number Header*/
 .email {
-color: var(--title-text-color);
+color: var(--primary-text-color);
 font-weight: 500;
 line-height: 1.14;
 letter-spacing: 0.02em;
@@ -182,22 +229,13 @@ text-align: center;
 max-width: 696px;
 padding: 200px 0;
 margin: 0 auto;
-
-
-
 background-color:#2F303A;
 }
 
 .hero-section {
 background-color:#2F303A;
 
-
-
 }
-
-
-
-
 
 .hero-title {
 margin-bottom: 30px;
